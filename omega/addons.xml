@@ -1015,9 +1015,9 @@ KUDOS:
     </extension>
 </addon>
 
-<addon id="plugin.program.iptv.merge" name="IPTV Merge" provider-name="SlyGuy" version="0.28.6">
+<addon id="plugin.program.iptv.merge" name="IPTV Merge" provider-name="SlyGuy" version="0.30.9">
   <requires>
-    <import addon="script.module.slyguy" version="0.85.92"/>
+    <import addon="script.module.slyguy" version="0.86.32"/>
   </requires>
   <extension point="xbmc.python.pluginsource" library="default.py">
     <provides>executable</provides>
@@ -1029,7 +1029,7 @@ KUDOS:
     <license></license>
     <language></language>
     <website></website>
-    <news>More robust IPTV Manager support</news>
+    <news>Implement HTTP API</news>
     <assets>
       <icon>icon.png</icon>
       <fanart>fanart.jpg</fanart>
