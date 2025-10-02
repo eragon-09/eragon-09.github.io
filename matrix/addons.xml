@@ -1386,7 +1386,7 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.3.0+beta.2" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.3.0+beta.4.unofficial.1" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -1499,10 +1499,32 @@ provider-name="jurialmunkey">
         <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-    <news>## v7.3.0+beta.2
+    <news>## v7.3.0+beta.4
 ### Fixed
-- Fix not parsing infolabels used as plugin url query params
-- Fix unnecessarily processing window properties</news></extension>
+- Various misc fixes for focus and position loss on refresh
+- Fix possible unnecessary listing refresh after playlist action
+- Don't check items added to non music or video playlists
+- Re-enable setting for displaying saved playlists
+- Fix exceptions with using non-existent request response as context manager
+- Use different default player client request which provides more captions in response
+- Exclude retrying player clients that do not support authentication if authentication is required
+- Only request authenticated player request once, if not otherwise required
+- Fix not updating breadcrumb after certain context menu actions
+- Fix setting focus on items in listing when parent item is not shown
+- Reduce CPU usage of service runner loop when idle
+- Simplify window history fallback for search inputs
+- Don't re-raise BrokenPipeError in RequestHandler.handle_one_request
+- Fix including details in label2 mask when video details in listings is disabled
+- Fix incorrect modification of custom thumbnails
+- Refresh stale cached entries if new player data is available
+- Disable use of captions from clients that are sometimes aggressively rate limited
+
+### Changed
+- Allow additional query parameters to be inherited from parent listing
+- Improve process for initial player request if remote history not enabled
+- Disable unusable player clients
+- Disable multiple busy dialog crash workarounds in Kodi 22
+- Include visitorData in subtitle request headers along w</news></extension>
 </addon>
 
 <addon id="repository.autowidget" name="AutoWidget Repository" version="1.1" provider-name="drinfernoo">
