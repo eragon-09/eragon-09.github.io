@@ -1037,41 +1037,6 @@ KUDOS:
   </extension>
 </addon>
 
-<addon id="plugin.program.TitanMBiWizard" name="[COLOR orange]TITAN [COLOR blue]MBi[/COLOR] [COLOR snow]Wizard[/COLOR]" version="3.0.8.2" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
-	<requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.service" library="service.py" />
-	<extension point="xbmc.addon.metadata">
-		<summary lang="de">Titan [COLOR blue]MBi[/COLOR] Wizard</summary>
-		<description lang="de">Der [COLOR orange][B]TiTan[/COLOR] [COLOR blue]MBi[/COLOR] [COLOR red]Wizard[/B][/COLOR] ist ein Kodi-Add-on, das den klassischen [COLOR red][B]„Wizard“[/B][/COLOR] für Installationen mit einem komfortablen Build-Installer [COLOR blue][B]MBi[/B][/COLOR]  kombiniert. Es bietet ein übersichtliches Hauptmenü mit allen Standard-Funktionen wie Build-Menü, Wartungstools und Einstellungen und zusätzlich einen eigenen Punkt [B]„Build von Bundle-URL installieren“[/B], um Builds direkt aus Kurzlinks wie [COLOR blue][B]tinyurl, bit.ly oder t1p.de[/B][/COLOR] herunterzuladen und automatisch zu installieren.</description>
-		<disclaimer lang="en_GB">THX Slam, Sarge, Funsterbe, BYB</disclaimer>
-		<language>en</language>
-		<platform>all</platform>
-		<license>GPL-2.0-or-later</license>
-		<forum></forum>
-		<website></website>
-		<email></email>
-		<source></source>
-		<news>THX Slam, Sarge, Funsterbe, BYB</news>
-		<assets>
-				<icon>resources/icon.png</icon>
-				<fanart>resources/fanart.jpg</fanart>
-				<screenshot>resources/media/screenshot-01.jpg</screenshot>
-			    <screenshot>resources/media/screenshot-02.jpg</screenshot>
-			    <screenshot>resources/media/screenshot-03.jpg</screenshot>
-				<screenshot>resources/media/screenshot-04.jpg</screenshot>
-				<screenshot>resources/media/screenshot-05.jpg</screenshot>
-				<banner></banner>
-				<clearlogo></clearlogo>
-				<screenshot></screenshot>
-		</assets>
-	</extension>
-</addon>
-
 <addon id="plugin.program.truncatetables"
 version="1.0.1"
 name="Truncate Tables"
