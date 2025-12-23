@@ -2348,6 +2348,47 @@ provider-name="jurialmunkey">
 	</extension>
 </addon>
 
+<addon id="script.module.xManager"
+       name="xManager - xStream Domain Sync"
+       version="1.0.4"
+       provider-name="CrashX">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="plugin.video.xstream" optional="true"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py">
+	<provides>executable</provides>
+	</extension>
+  <extension point="xbmc.service" library="service_starter.py" start="login"/>
+   <extension point="xbmc.addon.metadata">
+    <summary lang="en_GB">Professional Domain Manager for xStream</summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xStream</summary>
+    <description lang="en_GB">xManager is an advanced domain synchronization service for xStream. This service automatically changes xStream addon settings. Make sure the remote URL is trustworthy.</description>
+    <description lang="de_DE">xManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xStream. Dieser Service ändert automatisch xStream Addon-Einstellungen. Stelle sicher, dass die Remote-URL vertrauenswürdig ist.</description>
+    <platform>all</platform>
+    <license>MIT</license>
+    <news>v1.0.0 (2025-12-20)
+- Initiales Release
+- Automatische Domain-Synchronisation
+- Professionelle GUI mit Design
+- Status-Anzeige und Benachrichtigungen
+---------------------------------------------
+		  v1.0.4 (2025-12-23)
+- Eigene Url zum updaten für Xstream
+- Beispiel:
+ {
+    "plugin_aniworld.domain": "aktuelle.domain.to",
+	"plugin_api_all.domain": "aktuelle.domain.eu"
+ }
+- Speichern als.txt
+    </news>
+    <assets>
+      <icon>icon.png</icon>
+      <fanart>fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
+
 <addon id="script.quicksilver.artwork" version="0.0.3" name="[COLORsilver]Quicksilver Artwork[/COLOR]" provider-name="Quicksilver">
     <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -2521,28 +2562,6 @@ provider-name="jurialmunkey">
 			<icon>icon.png</icon>
 		</assets>
 	</extension>
-</addon>
-
-<addon id="script.xstream.domainmanager" name="xStream Domain Manager" version="1.1.0" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
-
-<requires>
-    <import addon="xbmc.python" version="3.0.0"/>
-  </requires>
-
-  <extension point="xbmc.python.script" library="default.py">
-    <provides>executable</provides>
-  </extension>
-
-  <extension point="xbmc.service" library="service.py"/>
-
-  <extension point="xbmc.addon.metadata">
-    <summary>xStream Domain Weiterleitungs-Manager</summary>
-    <description lang="de">Zentrale Verwaltung und automatische Aktualisierung aller Domain-Einstellungen der xStream Hoster. Sucht nach Weiterleitungen (Redirects), bietet Einzel- und Global-Toggle (ALL ON|OFF) und ermöglicht die manuelle Bearbeitung von Hostern. Inklusive Autostart-Funktion.</description>
-    <platform>all</platform>
-    <assets>
-      <icon>icon.png</icon>
-    </assets>
-  </extension>
 </addon>
 
 <addon id="script.xstream.settings.saver" name="xStream Settings Saver" version="21.2" provider-name="mr.Python">
