@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.youtube" name="YouTube" version="7.3.0+beta.4.unofficial.1" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.0+beta.5" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -27,6 +27,7 @@
         <source>https://github.com/anxdpanic/plugin.video.youtube</source>
         <reuselanguageinvoker>true</reuselanguageinvoker>
         <summary lang="bg_BG">Добавка за YouTube</summary>
+        <summary lang="bs_BA">Dodatak za YouTube</summary>
         <summary lang="cs_CZ">Plugin pro YouTube</summary>
         <summary lang="da_DK">Plugin til YouTube</summary>
         <summary lang="de_DE">Plugin für YouTube</summary>
@@ -38,6 +39,7 @@
         <summary lang="et_EE">YouTube lisamoodul</summary>
         <summary lang="fi_FI">YouTube-lisäosa</summary>
         <summary lang="fr_FR">Plugin pour YouTube</summary>
+        <summary lang="ga">Breiseán do YouTube</summary>
         <summary lang="he_IL">תוסף עבור YouTube</summary>
         <summary lang="hr_HR">Dodatak za YouTube</summary>
         <summary lang="hu_HU">YouTube kiegészítő</summary>
@@ -58,6 +60,7 @@
         <summary lang="zh_CN">油管插件</summary>
         <summary lang="zh_TW">YouTube附加元件</summary>
         <description lang="bg_BG">YouTube е един от най-големите уеб сайтове за споделяне на видео в целия свят.</description>
+        <description lang="bs_BA">YouTube je jedna od najvećih svjetskih web stranica za dijeljenje videozapisa.</description>
         <description lang="cs_CZ">YouTube je jedna z největších webových stránek světa sdílející video.</description>
         <description lang="da_DK">YouTube er et af verdens største videodelingswebsteder.</description>
         <description lang="de_DE">YouTube ist eines der größten Video-Sharing-Websites der Welt.</description>
@@ -86,6 +89,7 @@
         <description lang="vi_VN">YouTube là một trong những trang web chia sẻ video lớn nhất trên thế giới.</description>
         <description lang="zh_CN">油管是世界上最大的视频分享网站之一。</description>
         <description lang="zh_TW">Youtube 是全世界最大的影片分享網站。</description>
+        <disclaimer lang="bs_BA">Ovaj dodatak nije odobren od strane Googlea</disclaimer>
         <disclaimer lang="cs_CZ">Tento plugin není schválen společností Google</disclaimer>
         <disclaimer lang="da_DK">Dette plugin er ikke godkendt af Google</disclaimer>
         <disclaimer lang="de_DE">Dieses Plugin ist nicht von Google befürwortet</disclaimer>
@@ -112,30 +116,7 @@
         <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-    <news>## v7.3.0+beta.4
+    <news>## v7.4.0+beta.5
 ### Fixed
-- Various misc fixes for focus and position loss on refresh
-- Fix possible unnecessary listing refresh after playlist action
-- Don't check items added to non music or video playlists
-- Re-enable setting for displaying saved playlists
-- Fix exceptions with using non-existent request response as context manager
-- Use different default player client request which provides more captions in response
-- Exclude retrying player clients that do not support authentication if authentication is required
-- Only request authenticated player request once, if not otherwise required
-- Fix not updating breadcrumb after certain context menu actions
-- Fix setting focus on items in listing when parent item is not shown
-- Reduce CPU usage of service runner loop when idle
-- Simplify window history fallback for search inputs
-- Don't re-raise BrokenPipeError in RequestHandler.handle_one_request
-- Fix including details in label2 mask when video details in listings is disabled
-- Fix incorrect modification of custom thumbnails
-- Refresh stale cached entries if new player data is available
-- Disable use of captions from clients that are sometimes aggressively rate limited
-
-### Changed
-- Allow additional query parameters to be inherited from parent listing
-- Improve process for initial player request if remote history not enabled
-- Disable unusable player clients
-- Disable multiple busy dialog crash workarounds in Kodi 22
-- Include visitorData in subtitle request headers along w</news></extension>
+- Fix exceptions caused by retrieving incorrect setting for audio only streams</news></extension>
 </addon>
