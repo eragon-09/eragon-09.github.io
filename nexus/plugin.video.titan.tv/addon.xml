@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.titan.tv" name="[COLOR orange]TiTan[/COLOR] [COLORred]TV[/COLOR]" version="0.5" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
+<addon id="plugin.video.titan.tv" name="[COLOR orange]TiTan[/COLOR] [COLORred]TV[/COLOR]" version="1.6" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR] Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1"/>
 		<import addon="script.module.requests" version="2.27.1"/>
@@ -7,13 +7,12 @@
 	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
 		<provides>video</provides>
 	</extension>
-	<extension point="xbmc.service" library="service_entry.py"/>
+	<extension point="xbmc.service" library="service_entry.py" start="startup"/>
 	<extension point="xbmc.addon.metadata">
 		<reuselanguageinvoker>true</reuselanguageinvoker>
 		<platform>all</platform>
-		<summary lang="en_GB">[COLORorange ]TiTan[/COLOR]</summary>
-		<description lang="de">[COLORskyblue]TiTan für den Zugriff auf Videos und Vod-Demand-Kanäle und -Serien[/COLOR][COLORred]
-[B]Hinweis:[/B][/COLOR] Wir weisen darauf hin, dass die Nutzung von mancher Addons in bestimmten Ländern gegen geltendes Recht verstoßen kann und strafbar ist. Die Verantwortung für die Anwendung dieser Addons liegt ausschließlich beim jeweiligen Benutzer. Das [COLORorange]TiTan[/COLOR] [COLORblue]Team[/COLOR] übernimmt daher keinerlei Haftung für etwaige rechtliche Konsequenzen. Eine Weitergabe der Addons an Dritte oder nicht autorisierte Personen ist strengstens untersagt. Vielen Dank für Ihr Verständnis!!!!</description>
+		<summary lang="de_de">[COLORorange ]TiTan[/COLOR]</summary>
+        <description lang="de">[COLORskyblue]TiTan für den Zugriff auf Videos und Vod-Demand-Kanäle und -Serien[/COLOR][COLORred] [B]Hinweis:[/B][/COLOR] Wir weisen darauf hin, dass die Nutzung von mancher Addons in bestimmten Ländern gegen geltendes Recht verstoßen kann und strafbar ist. Die Verantwortung für die Anwendung dieser Addons liegt ausschließlich beim jeweiligen Benutzer. Das [COLORorange]TiTan[/COLOR] [COLORblue]Team[/COLOR] übernimmt daher keinerlei Haftung für etwaige rechtliche Konsequenzen. Eine Weitergabe der Addons an Dritte oder nicht autorisierte Personen ist strengstens untersagt. Vielen Dank für Ihr Verständnis!!!!</description>
 		<license>GPL-3.0-or-later</license>
 		<language>en</language>
 		<assets>
@@ -26,10 +25,15 @@
 			<screenshot>resources/media/screenshot_4.png</screenshot>
 		</assets>
 		<news>
- Hauptversionsveröffentlichung mit Umgestaltung der Menüoptionen.   Portalunterstützung mit separater Menüoption für Serien.
-  Wenn Sie die Kodi-Option „Zu Favoriten hinzufügen“ verwenden, wird der vorhandene Favoriten-Link unterbrochen.
-  Möglichkeit, die Portal-Favoritenoption für VOD und TV-Kanäle zu verwenden
-  Fügen Sie Unterstützung für das UpNext-Add-on hinzu.
-		</news>
+Major Update:
+– Neues TiTan-Hauptmenü
+– Erweiterte EPG-Darstellung inkl. Auto-Refresh beim Start
+– DACH-Filter für gezielte Sender- und Inhaltsauswahl
+– Optimierte Navigation und Caching
+         </news>
 	</extension>
 </addon>
+
+
+
+
