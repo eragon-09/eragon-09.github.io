@@ -1243,7 +1243,7 @@ provider-name="The Cleaner">
 </addon>
 
 <addon id="plugin.video.themoviedb.helper"
-version="6.15.0"
+version="6.15.1"
 name="TMDb Helper"
 provider-name="jurialmunkey">
 <requires>
@@ -2279,7 +2279,7 @@ Major Update:
 <!-- #      THE TEAM JETEXTRACTOR              # -->
 <!-- ########################################### -->
 
-<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.31">
+<addon id="script.module.jurialmunkey" name="jurialmunkey common" provider-name="jurialmunkey" version="0.2.33">
   <requires>
     <import addon="xbmc.python" version="3.0.1"/>
     <import addon="script.module.requests" version="2.9.1"/>
