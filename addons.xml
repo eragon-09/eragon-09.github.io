@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-<addon id="repository.eragon" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORsnow]Repository[/COLOR]" version="2.5" provider-name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR]">
+<addon id="repository.eragon" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]" version="2.5" provider-name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR]">
   <requires>
     <import addon="xbmc.addon" version="12.0.0"/>
   </requires>
-  <extension point="xbmc.addon.repository" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR]">
+  <extension point="xbmc.addon.repository" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]">
     <dir>
     <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/addons.xml</info>
     <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/addons.xml.md5</checksum>
@@ -40,7 +40,7 @@
     <summary lang="de">Eragon Repository</summary>
   <description lang="de">[COLORsnow][B]** Weisheit der Drachen, sortiert und bereit, willkommen im [COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR][COLORsnow] Repository **[/B][/COLOR]
 [COLORred][B]Wichtig:[/B][/COLOR] Bitte beachten Sie, dass dieses Repository vertraulich ist und nicht im Internet veröffentlicht werden sollte. Ihre Rücksichtnahme und Ihr Verständnis sind entscheidend, um die Integrität unserer Arbeit zu wahren. Vielen Dank für Ihre Kooperation!
-   
+
   </description>
   <disclaimer lang="de">Bitte, die Repository nicht veröffentlichen.</disclaimer>
   <assets>
