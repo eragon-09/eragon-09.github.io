@@ -1289,28 +1289,6 @@ provider-name="jurialmunkey">
 </extension>
 </addon>
 
-<addon id="plugin.video.titan.iptv" name="[COLOR orange][B]TiTan[/COLOR][COLOR red] IPTV [/B][/COLOR]" version="1.1.5" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]/&/Thunderv3">
-    <requires>
-		<import addon="xbmc.python" version="3.0.0"/>
-		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
-	</requires>
-	<extension point="xbmc.python.pluginsource" library="addon.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="de">[COLOR Blue] LIVE-TV, VOD[/COLOR]</summary>
-		<description lang="de">Wir weisen darauf hin, dass illegale Addons im machen Ländern gegen geltendes Recht § verstossen können und strafbar ist. Die Nutzung und Anwendung dieser Addons obliegt allein bei dem jeweiligen Benutzer des Addons. Das [COLORred]TiTan[/COLOR] Team übernimmt daher keine Haftung ! Eine Weitergabe an Dritte / nicht authorisierte Personen ist strengstens untersagt !!!! ...</description>
-		<license></license>
-		<language>de</language>
-		<forum></forum>
-		<assets>
-            <icon>icon.png</icon>
-            <fanart>fanart.jpg</fanart>
-        </assets>
-	</extension>
-</addon>
-
 <addon id="plugin.video.titan.playlistloader" name="[COLOR orange]TiTan[COLOR yellow] Playlist Loader[/COLOR]" version="0.3" provider-name="[COLORyellow ]Titan[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
@@ -1357,6 +1335,36 @@ provider-name="jurialmunkey">
 	   <media>resources/medias/series.jpg</media>
 	</assets>
   </extension>
+</addon>
+
+<addon id="plugin.video.titan.premium.tv" name="[COLOR orange][B]TiTan[/COLOR][COLOR red] Premium TV [/B][/COLOR]" version="1.5.5" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR] & Thunderv3">
+    <requires>
+		<import addon="xbmc.python" version="3.0.0"/>
+		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.addon.metadata">
+		<platform>all</platform>
+		<summary lang="de">[COLOR Blue] LIVE-TV, VOD[/COLOR]</summary>
+		<description lang="de">Wir weisen darauf hin, dass illegale Addons im machen Ländern gegen geltendes Recht § verstossen können und strafbar ist. Die Nutzung und Anwendung dieser Addons obliegt allein bei dem jeweiligen Benutzer des Addons. Das [COLORred]TiTan[/COLOR] Team übernimmt daher keine Haftung ! Eine Weitergabe an Dritte / nicht authorisierte Personen ist strengstens untersagt !!!! ...</description>
+		<license></license>
+		<language>de</language>
+		<forum></forum>
+		<assets>
+            <icon>resources/media/icon.png</icon>
+            <fanart>resources/media/fanart.jpg</fanart>
+			<screenshot>resources/media/icon.png</screenshot>
+            <screenshot>resources/media/screenshot_1.png</screenshot>
+			<screenshot>resources/media/screenshot_2.png</screenshot>
+			<screenshot>resources/media/screenshot_3.png</screenshot>
+			<screenshot>resources/media/screenshot_4.png</screenshot>
+			<screenshot>resources/media/screenshot_5.png</screenshot>
+			<screenshot>resources/media/screenshot_6.png</screenshot>
+		    <screenshot>resources/media/screenshot_7.png</screenshot>
+        </assets>
+	</extension>
 </addon>
 
 <addon id="plugin.video.titan.tv" name="[COLOR orange]TiTan[/COLOR] [COLORred]TV[/COLOR]" version="1.0.7" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR] Team">
