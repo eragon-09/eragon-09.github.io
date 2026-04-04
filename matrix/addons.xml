@@ -1424,7 +1424,35 @@ Major Update:
   </extension>
 </addon>
 
-<addon id="plugin.video.xstream" name="xStream" version="4.3.0.6a" provider-name="xStream-Team">
+<addon id="plugin.video.xship" version="2026.04.01.b" name="[B]xShip[/B]" provider-name="Michaz">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests"/>
+        <import addon="script.module.download-m3u8" optional="true"/>
+        <import addon="script.module.six"/>
+        <import addon="script.module.kodi-six"/>
+        <import addon="script.module.pyaes"/>
+        <import addon="script.module.infotagger"/>
+        <import addon="script.module.resolveurl" version="5.1.100"/>
+        <!-- for remote debug -->
+        <import addon="script.module.pydevd" optional="true"/>
+    </requires>
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+    <extension point="xbmc.service" library="service.py" start="startup" />
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">xShip: Der Fake</summary>
+        <summary lang="en_GB">xShip: The Fake</summary>
+        <assets>
+			<icon>resources/icon.png</icon>
+			<fanart>resources/fanart.jpg</fanart>
+			<banner>resources/media/banner.png</banner>
+		</assets>
+    </extension>
+</addon>
+
+<addon id="plugin.video.xstream" name="xStream" version="4.3.0.6b" provider-name="xStream-Team">
 	<requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests"/>
