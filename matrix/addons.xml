@@ -1424,6 +1424,59 @@ Major Update:
   </extension>
 </addon>
 
+<addon id="plugin.video.titanmacvodedition" name="[COLOR orangered]Titan [COLOR lime]Portal MAC VOD Edition[/COLOR]" version="1.1.0" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
+	<requires>
+		<import addon="xbmc.python" version="3.0.1" />
+		<import addon="script.module.requests" version="2.27.1" />
+	</requires>
+	<extension point="xbmc.python.pluginsource" library="addon_entry.py">
+		<provides>video</provides>
+	</extension>
+	<extension point="xbmc.service" library="service_entry.py" />
+	<extension point="xbmc.addon.metadata">
+		<reuselanguageinvoker>true</reuselanguageinvoker>
+		<platform>all</platform>
+		<summary lang="de_de">TiTan Portal MAC VOD Edition für Live-TV, VoD und Serien</summary>
+        <summary lang="en_gb">TiTan Portal MAC VOD Edition for Live TV, VoD and Series</summary>
+        <description lang="de_de">TiTan Portal MAC VOD Edition ist ein Kodi-Addon für Stalker- und MAC-basierte Portal-Dienste. Das Addon unterstützt Live-TV, VoD und Serien, Server- und MAC-Auswahl direkt im Hauptmenü, manuelle Portal-URL in den Einstellungen, PVR-Listen-Übernahme, Cache-Löschung sowie eine verbesserte EPG-Aktualisierung.</description>
+        <description lang="en_gb">TiTan Portal MAC VOD Edition is a Kodi add-on for Stalker and MAC-based portal services. It supports Live TV, VoD and Series, server and MAC selection directly in the main menu, manual portal URL entry in settings, PVR list loading, cache clearing and improved EPG refresh handling.</description>
+		<license>GPL-3.0-or-later</license>
+		<language>en</language>
+		<source></source>
+		<website></website>
+		<assets>
+			<icon>resources/media/icon.png</icon>
+			<fanart>resources/media/fanart.png</fanart>
+			<screenshot>resources/media/screenshot_1.png</screenshot>
+			<screenshot>resources/media/screenshot_2.png</screenshot>
+			<screenshot>resources/media/screenshot_3.png</screenshot>
+			<screenshot>resources/media/screenshot_4.png</screenshot>
+		</assets>
+		<news>
+v1.1.0  (2026-04-04)
+- Hauptmenü überarbeitet
+- Server wählen, MAC wählen und Cache löschen ergänzt
+- PVR-Listen-Funktion integriert
+- Manuelle Portal-URL in den Einstellungen aktiviert
+- Menü-Icons erweitert
+- Favoriten-Icon ergänzt
+- EPG-Handling verbessert
+
+v1.0.0  (2024-07-13)
+- Major version release with refactor of the menu options. Support for portal with separate menu option for Series.
+If using kodi Add to Favourites option, existing Favourites link would break.
+Ability to use Portal Favorite option for both VOD and TV Channels
+Add support for UpNext addon.
+
+v1.1.0  (2025-07-26)
+- Add search to directory listing for TV and VOD
+
+v1.2.0  (2025-08-06)
+- Fix TV stream issue for portal with use_http_tmp_link and use_load_balancing as false
+		</news>
+	</extension>
+</addon>
+
 <addon id="plugin.video.xship" version="2026.04.01.b" name="[B]xShip[/B]" provider-name="Michaz">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -2510,6 +2563,28 @@ Major Update:
 		<website>https://pypi.python.org/pypi/Unidecode</website>
 		<source>https://pypi.python.org/pypi/Unidecode</source>
 	</extension>
+</addon>
+
+<addon id="script.portal.mac.converter" name="[COLOR orangered]TiTan [COLOR blue]Portal MAC Converter[/COLOR]" version="1.6.0" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="script.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR orangered]TiTan[/COLOR] Portal &amp; MAC Konverter</summary>
+    <summary lang="en_GB">[COLOR orangered]TiTan[/COLOR] Portal &amp; MAC Converter</summary>
+    <description lang="de_DE">Ein leistungsstarkes Werkzeug zum Konvertieren, Verwalten und Bereinigen von Portal-MAC-Listen. Wandelt TXT-Dateien nahtlos in das JSON-Format um, inklusive Multiselect-Unterstützung und Sicherheitsabfragen im Titan-Design.</description>
+    <description lang="en_GB">A powerful tool to convert, manage, and clean portal MAC lists. Seamlessly transforms TXT files into JSON format, featuring multiselect support and overwrite protection in Titan style.</description>
+    <language>de en</language>
+    <platform>all</platform>
+    <license>GPL-2.0-only</license>
+    <assets>
+      <icon>resources/art/icon.png</icon>
+      <fanart>resources/art/fanart.jpg</fanart>
+    </assets>
+  </extension>
 </addon>
 
 <addon id="script.quicksilver.artwork" version="0.0.3" name="[COLORsilver]Quicksilver Artwork[/COLOR]" provider-name="Quicksilver">
