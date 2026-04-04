@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.portal.mac.converter" name="[COLOR orangered]TiTan [COLOR blue]Portal MAC Converter[/COLOR]" version="1.6.0" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="script.py">
+    <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de_DE">[COLOR orangered]TiTan[/COLOR] Portal &amp; MAC Konverter</summary>
+    <summary lang="en_GB">[COLOR orangered]TiTan[/COLOR] Portal &amp; MAC Converter</summary>
+    <description lang="de_DE">Ein leistungsstarkes Werkzeug zum Konvertieren, Verwalten und Bereinigen von Portal-MAC-Listen. Wandelt TXT-Dateien nahtlos in das JSON-Format um, inklusive Multiselect-Unterstützung und Sicherheitsabfragen im Titan-Design.</description>
+    <description lang="en_GB">A powerful tool to convert, manage, and clean portal MAC lists. Seamlessly transforms TXT files into JSON format, featuring multiselect support and overwrite protection in Titan style.</description>
+    <language>de en</language>
+    <platform>all</platform>
+    <license>GPL-2.0-only</license>
+    <assets>
+      <icon>resources/art/icon.png</icon>
+      <fanart>resources/art/fanart.jpg</fanart>
+    </assets>
+  </extension>
+</addon>
