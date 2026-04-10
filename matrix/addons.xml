@@ -2501,7 +2501,7 @@ v1.0.0  (2024-07-13)
 	</extension>
 </addon>
 
-<addon id="script.portal.mac.converter" name="[COLOR orangered]TiTan [COLOR blue]Portal MAC Converter[/COLOR]" version="1.6.0" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
+<addon id="script.portal.mac.converter" name="[COLOR orangered]TiTan [COLOR blue]Portal MAC Converter[/COLOR]" version="1.7.0" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
   </requires>
