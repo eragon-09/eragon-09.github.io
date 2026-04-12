@@ -1337,7 +1337,7 @@ provider-name="jurialmunkey">
   </extension>
 </addon>
 
-<addon id="plugin.video.titan.premium.tv" name="[COLOR orange][B]TiTan[/COLOR][COLOR red] Premium TV [/B][/COLOR]" version="1.5.5" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR] & Thunderv3">
+<addon id="plugin.video.titan.premium.tv" name="[COLOR orange][B]TiTan[/COLOR][COLOR red] Premium TV [/B][/COLOR]" version="1.6.0" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]&/Thunderv3">
     <requires>
 		<import addon="xbmc.python" version="3.0.0"/>
 		<import addon="script.module.requests" version="2.25.1+matrix.1"/>
@@ -1356,13 +1356,6 @@ provider-name="jurialmunkey">
             <icon>resources/media/icon.png</icon>
             <fanart>resources/media/fanart.jpg</fanart>
 			<screenshot>resources/media/icon.png</screenshot>
-            <screenshot>resources/media/screenshot_1.png</screenshot>
-			<screenshot>resources/media/screenshot_2.png</screenshot>
-			<screenshot>resources/media/screenshot_3.png</screenshot>
-			<screenshot>resources/media/screenshot_4.png</screenshot>
-			<screenshot>resources/media/screenshot_5.png</screenshot>
-			<screenshot>resources/media/screenshot_6.png</screenshot>
-		    <screenshot>resources/media/screenshot_7.png</screenshot>
         </assets>
 	</extension>
 </addon>
