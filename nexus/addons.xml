@@ -1213,7 +1213,7 @@ provider-name="The Cleaner">
     </extension>
 </addon>
 
-<addon id="plugin.video.sporthdme" name="SportHD" version="0.1.84" provider-name="Bugatsinho">
+<addon id="plugin.video.sporthdme" name="SportHD" version="0.1.85.1" provider-name="Bugatsinho">
   <requires>
     <!--import addon="xbmc.python" version="2.1.0"/-->
     <import addon="script.module.dateutil" />
@@ -1231,8 +1231,7 @@ provider-name="The Cleaner">
     <license>GNU GPL, version 2</license>
     <twitter>https://twitter.com/Bugatsinho</twitter>
     <news>
-      - compatible with Kodi 18.x - 19.x - 20.x - 21.x version
-      - fixes credits to GKOBU
+      - fix: pass required hf1 cookie to glisco/sansat m3u8 requests
     </news>
 
     <assets>
@@ -1613,6 +1612,49 @@ v1.0.0  (2024-07-13)
         <assets>
             <icon>icon.png</icon>
         </assets>
+    </extension>
+</addon>
+
+<addon id="repository.bugatsinho" name=" Bugatsinho repository" version="2.8" provider-name="Bugatsinho">
+    <extension point="xbmc.addon.repository" name="Bugatsinho repository">
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/bugatsinho.github.io/master/_zips</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/teamuniversal/scrapers/master/_modules4all/zips/</datadir>
+            <hashes>false</hashes>
+        </dir>
+        <dir>
+            <info>https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz</info>
+			<checksum verify="sha256">https://raw.githubusercontent.com/jsergio123/zips/master/addons.xml.gz.sha256</checksum>
+			<datadir zip="true">https://raw.githubusercontent.com/jsergio123/zips/master/</datadir>
+			<artdir>https://raw.githubusercontent.com/jsergio123/zips/master/</artdir>
+			<hashes>sha256</hashes>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/Gujal00/smrzips/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/Gujal00/smrzips/master/zips/</datadir>
+        </dir>
+        <dir>
+            <info compressed="false">https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/bugatsinho/python-koding/master/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/bugatsinho/python-koding/master/zips/</datadir>
+        </dir>
+    </extension>
+    <extension point="xbmc.addon.metadata">
+        <summary>Bugatsinho repository</summary>
+        <description>This repository contains Greek, Spanish and other addons!Read first each addon's description!</description>
+        <assets>
+			<icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+		</assets>
+        <platform>all</platform>
     </extension>
 </addon>
 
