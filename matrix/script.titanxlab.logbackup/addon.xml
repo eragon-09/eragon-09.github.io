@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="script.titanxlab.logbackup" name="TitanX Lab - Log Backup" version="1.0.0" provider-name="TitanX Lab">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0"/>
+  </requires>
+  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.addon.metadata">
+    <summary lang="de">TitanX Lab Tool: Sichert die kodi.log als ZIP in einem wählbaren Ordner</summary>
+    <summary lang="en_GB">TitanX Lab Tool: Backs up kodi.log as a ZIP to a folder of your choice</summary>
+    <description lang="de">Ein kleines Backup-Tool des TitanX Lab Teams. Über einen Dialog wählst du einen Zielordner aus, das Add-on packt die aktuelle kodi.log automatisch in eine ZIP-Datei mit Datum und Uhrzeit im Dateinamen und speichert sie dort ab.</description>
+    <description lang="en_GB">A small backup tool by the TitanX Lab team. Pick a destination folder via a dialog and the add-on automatically packs the current kodi.log into a ZIP file, named with the date and time, and saves it there.</description>
+    <platform>all</platform>
+	<assets>
+    <icon>icon.png</icon>
+    </assets>
+  </extension>
+</addon>
