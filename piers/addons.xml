@@ -2148,7 +2148,7 @@ v1.0.0  (2024-07-13)
     </extension>
 </addon>
 
-<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2023.01.09.0" provider-name="aenema, peno">
+<addon id="script.ezmaintenanceplus" name="EZ Maintenance+" version="2026.04.05.0" provider-name="aenema, peno">
   <requires>
     <import addon="script.module.requests" version="1.0.0" />
   </requires>
@@ -2169,6 +2169,8 @@ v1.0.0  (2024-07-13)
 	    <fanart>fanart.png</fanart>
     </assets>
     <news>
+2026.04.05.0
+ - Updated for Kodi 22
 2023.01.09.0
  - Added AutoClean Cache functionality every x days at a given hour.
  - Backup always replaced the home folder reference in xml files with special://home
@@ -2679,19 +2681,22 @@ v1.0.0  (2024-07-13)
   </extension>
 </addon>
 
-<addon id="script.titanxlab.logbackup" name="TitanX Lab - Log Backup" version="1.0.0" provider-name="TitanX Lab">
+<addon id="script.titanxlab.logbackup" name="TitanX Lab - Log Backup" version="1.2.1" provider-name="TitanX Lab">
   <requires>
-    <import addon="xbmc.python" version="3.0.0"/>
+    <import addon="xbmc.python" version="3.0.0" />
   </requires>
-  <extension point="xbmc.python.script" library="default.py"/>
+  <extension point="xbmc.python.script" library="default.py" />
   <extension point="xbmc.addon.metadata">
-    <summary lang="de">TitanX Lab Tool: Sichert die kodi.log als ZIP in einem wählbaren Ordner</summary>
-    <summary lang="en_GB">TitanX Lab Tool: Backs up kodi.log as a ZIP to a folder of your choice</summary>
-    <description lang="de">Ein kleines Backup-Tool des TitanX Lab Teams. Über einen Dialog wählst du einen Zielordner aus, das Add-on packt die aktuelle kodi.log automatisch in eine ZIP-Datei mit Datum und Uhrzeit im Dateinamen und speichert sie dort ab.</description>
-    <description lang="en_GB">A small backup tool by the TitanX Lab team. Pick a destination folder via a dialog and the add-on automatically packs the current kodi.log into a ZIP file, named with the date and time, and saves it there.</description>
+    <summary lang="de_DE">Kodi-Log lokal sichern oder mit wählbarem Datenschutzmodus hochladen</summary>
+    <summary lang="en_GB">Back up the Kodi log locally or upload it with an optional privacy mode</summary>
+    <description lang="de_DE">Erstellt eine lokale ZIP-Datei oder lädt das Kodi-Log nach ausdrücklicher Bestätigung zu paste.rs hoch. Im Datenschutzmodus werden erkannte persönliche Daten vor dem Hochladen entfernt.</description>
+    <description lang="en_GB">Creates a local ZIP file or uploads the Kodi log to paste.rs after explicit confirmation. Privacy mode removes detected personal information before upload.</description>
+    <disclaimer lang="de_DE">Auch der Datenschutzmodus kann nicht garantieren, dass alle sensiblen Angaben erkannt werden. Freigabelinks nur gezielt weitergeben.</disclaimer>
+    <disclaimer lang="en_GB">Privacy mode cannot guarantee that every sensitive detail is detected. Share links only with intended recipients.</disclaimer>
     <platform>all</platform>
-	<assets>
-    <icon>icon.png</icon>
+    <license>MIT</license>
+    <assets>
+      <icon>icon.png</icon>
     </assets>
   </extension>
 </addon>
