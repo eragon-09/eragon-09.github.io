@@ -1092,28 +1092,6 @@ KUDOS:
 	</extension>
 </addon>
 
-<addon id="plugin.program.truncatetables"
-version="1.0.1"
-name="Truncate Tables"
-provider-name="The Cleaner">
-<requires>
-  <import addon="xbmc.python" version="3.0.0"/>
-</requires>
-<extension point="xbmc.python.pluginsource" library="main.py">
-  <provides>executable</provides>
-</extension>
-<extension point="xbmc.addon.metadata">
-  <summary lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</summary>
-  <description lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</description>
-  <disclaimer lang="en_GB">Clears addons database tables.  Backing up addons33.db is recommended.</disclaimer>
-  <license>GPL-3.0-only</license>
-  <assets>
-    <icon>icon.png</icon>
-  </assets>
-  <news></news>
-</extension>
-</addon>
-
 <addon id="plugin.video.f4mTester" version="4.1.3" name="f4mTester" provider-name="Equipe Oneplay e Tiago ">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
@@ -1327,33 +1305,6 @@ provider-name="jurialmunkey">
         <icon>icon.png</icon>
         <fanart>fanart.jpg</fanart>
     </assets>
-  </extension>
-</addon>
-
-<addon id="plugin.video.titan.portal" name="[COLOR orange]TiTan[COLOR yellow] Portal[/COLOR]" version="1.0.4" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
-<requires>
-    	<!--<import addon="script.module.resolveurl" /> -->
-        <import addon="script.module.requests"/>
-        <import addon="script.module.six"/>
-
-        <import addon="script.module.web-pdb" />
-
-  </requires>
-	<extension point="xbmc.python.pluginsource" library="default.py">
-		<provides>video</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-        <platform>all</platform>
-		<summary lang="en">[COLOR gold]Nur das Beste!!![/COLOR] </summary>
-	<platform>all</platform>
-		<description lang="en">[COLOR orange]TiTan[/COLOR][COLOR red] Portal[/COLOR] ist ein Addon von [COLOR lime]Titan Builds Team.[/COLOR] Das Titan Portal Addon ist ein exklusives Tool, das für persönliche Nutzung entwickelt wurde.[COLOR red] Bitte teilt dieses Addon nicht mit anderen, um die Integrität und Funktionalität zu gewährleisten. Euer Verständnis und eure Rücksichtnahme sind sehr geschätzt. Vielen Dank![/COLOR]</description>
-	<assets>
-		<icon>icon.png</icon>
-	   <fanart>fanart.jpg</fanart>
-	   <media>resources/medias/home.jpg</media>
-	   <media>resources/medias/movies.jpg</media>
-	   <media>resources/medias/series.jpg</media>
-	</assets>
   </extension>
 </addon>
 
