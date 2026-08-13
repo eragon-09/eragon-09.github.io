@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<addon id="script.buildguard" name="[COLOR darkblue]B[/COLOR]uild[COLOR orange]G[/COLOR]uard" version="1.6.4" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
+<addon id="script.buildguard" name="[B]Build[COLOR FF0827F5]Guard[/COLOR][/B]" version="1.6.4" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
   <requires>
     <import addon="xbmc.python" version="3.0.0" />
     <import addon="script.module.dropbox" version="10.3.1" />
