@@ -1415,28 +1415,6 @@ Major Update:
 	</extension>
 </addon>
 
-<addon id="plugin.video.titan.x-codes" name="[COLOR yellow]TiTan-[COLOR chocolate]X[/COLOR][COLORwhite]-[/COLOR][COLORgold]Codes[/COLOR]" version="2.7" provider-name="[COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
-<requires>
-		<import addon="script.module.requests" version="2.27.1"/>
-	</requires>
-  <extension point="xbmc.python.pluginsource"
-			library="default.py">
-		<provides>video</provides>
-  </extension>
-  <extension point="xbmc.addon.metadata">
-		<summary>Fernsehsender, Sport und mehr ...</summary>
-		<description lang="de">[COLORred][B]Hinweis:[/B][/COLOR] Wir weisen darauf hin, dass die Nutzung von XCodes Addons in bestimmten Ländern gegen geltendes Recht verstoßen kann und strafbar ist. Die Verantwortung für die Anwendung dieser Addons liegt ausschließlich beim jeweiligen Benutzer. Das [COLORorange]TiTan[/COLOR] [COLORblue]Team[/COLOR] übernimmt daher keinerlei Haftung für etwaige rechtliche Konsequenzen. Eine Weitergabe der Addons an Dritte oder nicht autorisierte Personen ist strengstens untersagt. Vielen Dank für Ihr Verständnis!!!!</description>
-		<platform>all</platform>
-		<assets>
-       <icon>icon.png</icon>
-       <fanart>fanart.jpg</fanart>
-       <screenshot>resources/screenshots/1.jpg</screenshot>
-       <screenshot>resources/screenshots/2.jpg</screenshot>
-       <screenshot>resources/screenshots/3.jpg</screenshot>
-    </assets>
-  </extension>
-</addon>
-
 <addon id="plugin.video.titanmacvodedition" name="[COLOR orangered]Titan [COLOR lime]Portal MAC VOD Edition[/COLOR]" version="1.2.5" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
 	<requires>
 		<import addon="xbmc.python" version="3.0.1" />
