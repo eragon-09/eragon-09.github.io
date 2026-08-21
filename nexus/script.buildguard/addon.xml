@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='utf-8'?>
+<addon id="script.buildguard" name="[B]Build[COLOR FF0827F5]Guard[/COLOR][/B]" version="1.6.5" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
+  <requires>
+    <import addon="xbmc.python" version="3.0.0" />
+    <import addon="script.module.dropbox" version="10.3.1" />
+    <import addon="script.module.pyqrcode" version="1.2.1+matrix.1" />
+    <import addon="script.module.requests" version="2.25.1" />
+  </requires>
+  <extension point="xbmc.python.pluginsource" library="default.py">
+     <provides>executable</provides>
+  </extension>
+  <extension point="xbmc.service" library="service.py" start="startup" />
+  <extension point="xbmc.addon.metadata">
+	<summary lang="en">Kodi backup, restore, build installation and maintenance tools.</summary>
+	<summary lang="de">Kodi-Backup, Wiederherstellung, Build-Installation und Wartungswerkzeuge.</summary>
+	<description lang="en">BuildGuard is an open-source Kodi utility for backup, restore, build installation and system maintenance.
+
+Features:
+- ZIP backup and restore
+- Secure build installation with ZIP validation
+- Publishing through Dropbox and Google Drive
+- Database cleanup tools
+- Log viewer, local log backup and anonymous paste.rs upload
+
+Warning:
+BuildGuard can delete or overwrite Kodi data. Always create a backup and use only trusted build sources.
+
+Credits:
+Based on EZ Maintenance+ by aenema and peno. The Truncate Tables functionality is based on the addon by The Cleaner. Existing GPL notices and credits are retained. Exact upstream URLs and the complete historical attribution record still need verification before a public repository release; see THIRD_PARTY_NOTICES.md.</description>
+	<description lang="de">BuildGuard ist ein Open-Source-Dienstprogramm für Kodi zum Sichern, Wiederherstellen, Installieren von Builds und zur Systemwartung.
+
+Funktionen:
+- ZIP-Backup und Wiederherstellung
+- Sichere Build-Installation mit ZIP-Prüfung
+- Veröffentlichung über Dropbox und Google Drive
+- Werkzeuge zur Datenbankbereinigung
+- Log-Anzeige, lokale Log-Sicherung und anonymer Upload zu paste.rs
+
+Warnung:
+BuildGuard kann Kodi-Daten löschen oder überschreiben. Erstelle deshalb immer ein Backup und verwende nur vertrauenswürdige Build-Quellen.
+
+Credits:
+Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tables“ basiert auf dem Add-on von The Cleaner. Bestehende GPL-Hinweise und Credits bleiben erhalten. Die genauen Upstream-URLs und die vollständige historische Zuordnung müssen vor einer öffentlichen Repository-Veröffentlichung noch geprüft werden; siehe THIRD_PARTY_NOTICES.md.</description>
+<language />
+    <platform>all</platform>
+    <license>GPL-3.0-or-later</license>
+    <forum />
+    <source />
+    <assets>
+	    <icon>icon.png</icon>
+	    <fanart>fanart.jpg</fanart>
+    </assets>
+	<news lang="en">Version 1.6.5
+
+- Startup maintenance waits for a stable Kodi Home window before showing modal dialogs
+- Prevents package-cleanup prompts from blocking Home activation during startup
+
+- Backup, restore and publish Kodi builds
+- Dropbox and Google Drive support
+- Secure build installation with ZIP validation
+- Integrated offline setup help for Dropbox and Google Drive
+- Maintenance, database and log tools
+- Anonymous paste.rs log upload with privacy mode
+- Improved log upload validation and safer link-history storage
+- Added explicit requests dependency for clean Kodi installations
+- WebDAV provider retained for future compatible hosts</news>
+	<news lang="de">Version 1.6.5
+
+- Startwartung wartet auf ein stabil aktives Kodi-Home-Fenster vor modalen Dialogen
+- Verhindert, dass die Paketbereinigung die Home-Aktivierung beim Start blockiert
+
+- Kodi-Builds sichern, wiederherstellen und veröffentlichen
+- Unterstützung für Dropbox und Google Drive
+- Sichere Build-Installation mit ZIP-Prüfung
+- Integrierte Offline-Einrichtungshilfe für Dropbox und Google Drive
+- Wartungs-, Datenbank- und Log-Werkzeuge
+- Anonymer paste.rs-Log-Upload mit Datenschutzmodus
+- Verbesserte Upload-Prüfung und sicherere Speicherung der Linkhistorie
+- Requests-Abhängigkeit für saubere Kodi-Installationen ergänzt
+- WebDAV-Provider für zukünftige kompatible Hoster beibehalten</news>
+</extension>
+</addon>
