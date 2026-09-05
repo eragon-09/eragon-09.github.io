@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.titansmarttvplus" name="[COLOR orange]TiTan[/COLOR] Smart TV Plus" version="1.6.2" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
+    <requires>
+        <import addon="xbmc.python" version="3.0.0"/>
+        <import addon="script.module.requests" version="2.25.1"/>
+        <import addon="script.module.inputstreamhelper" version="0.5.10"/>
+        <import addon="inputstream.adaptive" version="19.0.0" optional="true"/>
+        <import addon="inputstream.ffmpegdirect" version="19.0.0" optional="true"/>
+    </requires>
+
+    <extension point="xbmc.python.pluginsource" library="default.py">
+        <provides>video</provides>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary lang="de_DE">Deutsches Live TV und VoD aus mehreren kostenlosen Streaming-Quellen</summary>
+        <description lang="de_DE">TiTan Smart TV Plus bündelt Plex Live TV und VoD, Pluto.tv Live TV und VoD, Samsung TV Plus, Rakuten TV Live und VoD sowie freie M3U-TV-Quellen für Deutschland. Plex-Integration: TiTanX Lab Team. Credits: Samsung TV Plus - SlyGuy; RakutenTV German - realvito; Pluto.tv - Team Kodi, flubshi. Das Addon hostet keine Streams. Inhalte, Verfügbarkeit und Marken liegen bei den jeweiligen Anbietern.</description>
+        <disclaimer lang="de_DE">Dieses Addon hostet keine Streams. Inhalte und Streams werden von den jeweiligen Anbietern bereitgestellt. TiTanX Lab Team steht in keiner offiziellen Verbindung zu Plex, Pluto.tv, Samsung TV Plus oder Rakuten TV.</disclaimer>
+        <news lang="de_DE">v1.6.2: Kodi 19–21 Kompatibilität; versionsneutrale InputStream-Abhängigkeiten; Live-TV-Fallback ohne FFmpeg Direct; Rakuten-DRM für Matrix/Nexus/Omega vereinheitlicht. v1.6.1: Addon-Metadaten und Credits aktualisiert; zwei freie M3U-Quellen; direkte M3U-Logo-Nutzung über Kodi; Rakuten Live Cache und Kategorien optimiert; einheitliche Jetzt/Danach-EPG-Anzeige.</news>
+
+        <platform>all</platform>
+        <license>GPL-2.0-only</license>
+        <language>de</language>
+        <assets>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
+        </assets>
+    </extension>
+</addon>
+
