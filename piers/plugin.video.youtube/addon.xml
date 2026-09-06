@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.0+beta.5" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.4" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -31,7 +31,7 @@
         <summary lang="cs_CZ">Plugin pro YouTube</summary>
         <summary lang="da_DK">Plugin til YouTube</summary>
         <summary lang="de_DE">Plugin für YouTube</summary>
-        <summary lang="el_GR">Πρόσθετο YouTube</summary>
+        <summary lang="el_GR">Πρόσθετο για το YouTube</summary>
         <summary lang="en_GB">Plugin for YouTube</summary>
         <summary lang="eo">Aldonaĵo por YouTube</summary>
         <summary lang="es_ES">Complemento para YouTube</summary>
@@ -116,7 +116,20 @@
         <disclaimer lang="vi_VN">Plugin này không được xác nhận bởi Google</disclaimer>
         <disclaimer lang="zh_CN">此插件未被谷歌认可</disclaimer>
         <disclaimer lang="zh_TW">此附加元件未由Google支持</disclaimer>
-    <news>## v7.4.0+beta.5
+    <news>## v7.4.4
 ### Fixed
-- Fix exceptions caused by retrieving incorrect setting for audio only streams</news></extension>
+- Fix not including FolderPath in current container details
+- Fix current plugin item window properties sometimes not updating correctly
+- Fix not updating remote history upon consecutive playback events for certain video types
+- Fix using unimplemented change to localisation identifier when showing API config page address
+- Fix play uri parameters/properties not being able to be forced off
+- Limit retrying feeds that cannot be accessed
+
+### Changed
+- Improve responsiveness of service loop upon plugin invocation
+- Log redacted visitorData details
+- More aggressively utilise cached data for My Subscriptions feed failures
+
+### New
+- Add option to play YouTube error notification video upon playback failure</news></extension>
 </addon>
