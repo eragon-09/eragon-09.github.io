@@ -2671,14 +2671,13 @@ Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tabl
 </addon>
 
 <addon id="script.module.sxManager"
-       name="Manager - xShip/XStream/lastship Domain Sync"
-       version="1.0.5"
+       name="Manager - xShip/XStream Domain Sync"
+       version="1.0.6"
        provider-name="[COLOR green]C[COLOR white]rash[/COLOR][COLOR green]X[/COLOR] / [COLOR red]Ti[/COLOR][COLORdarkgrey]Tan[/COLOR]">
   <requires>
     <import addon="xbmc.python" version="3.0.0"/>
     <import addon="plugin.video.xship" optional="true"/>
     <import addon="plugin.video.xstream" optional="true"/>
-	<import addon="plugin.video.lastship.reborn" optional="true"/>
 	<import addon="repository.eragon" optional="true"/>
 	<import addon="repository.CrashX" optional="true"/>
   </requires>
@@ -2687,16 +2686,21 @@ Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tabl
   </extension>
   <extension point="xbmc.service" library="service_starter.py" start="login"/>
   <extension point="xbmc.addon.metadata">
-    <summary lang="en_GB">Professional Domain Manager for xShip, xStream, lastship </summary>
-    <summary lang="de_DE">Professioneller Domain-Manager für xShip, xStream, lastship</summary>
-    <description lang="en_GB">sxManager is an advanced domain synchronization service for xShip, xStream and lastship. This service automatically manages domain settings for all addons. Make sure the remote URLs are trustworthy.</description>
-    <description lang="de_DE">sxManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xShip, xStream und lastship. Dieser Service verwaltet automatisch die Domain-Einstellungen für beide Addons. Stelle sicher, dass die Remote-URLs vertrauenswürdig sind.</description>
+    <summary lang="en_GB">Professional Domain Manager for xShip, xStream </summary>
+    <summary lang="de_DE">Professioneller Domain-Manager für xShip, xStream</summary>
+    <description lang="en_GB">sxManager is an advanced domain synchronization service for xShip, xStream. This service automatically manages domain settings for all addons. Make sure the remote URLs are trustworthy.</description>
+    <description lang="de_DE">sxManager ist ein fortschrittlicher Domain-Synchronisierungs-Service für xShip, xStream und. Dieser Service verwaltet automatisch die Domain-Einstellungen für beide Addons. Stelle sicher, dass die Remote-URLs vertrauenswürdig sind.</description>
     <platform>all</platform>
     <license>MIT</license>
 	<website>https://t.me/TeamCrashX / https://t.me/c/2304581788/12770</website>
-    <news>v1.0. (2025-12-26)
+    <news>v1.0.6 (2026-09-06)
+- Disabled bundled sxmanager.json URL; remote sync only runs when a URL is configured manually
+- xShip and xStream only
+- Automatic local startup check: active domains first, fallbacks only on failure
+
+v1.0. (2025-12-26)
 - Combined sManager and xManager into sxManager
-- Supports xShip, xStream, lastship addons
+- Supports xShip, xStream addons
 - Separate configuration for each addon
 - Backup management for all
 - Automatic domain synchronization
