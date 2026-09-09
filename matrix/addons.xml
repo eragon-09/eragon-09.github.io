@@ -1474,7 +1474,7 @@ v1.0.0  (2024-07-13)
     </extension>
 </addon>
 
-<addon id="plugin.video.youtube" name="YouTube" version="7.4.4" provider-name="anxdpanic, bromix, MoojMidge">
+<addon id="plugin.video.youtube" name="YouTube" version="7.4.4a" provider-name="anxdpanic, bromix, MoojMidge">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.27.1"/>
@@ -1492,8 +1492,8 @@ v1.0.0  (2024-07-13)
     </extension>
     <extension point="xbmc.addon.metadata">
         <assets>
-            <icon>resources/media/icon.png</icon>
-            <fanart>resources/media/fanart.jpg</fanart>
+            <icon>icon.png</icon>
+            <fanart>fanart.jpg</fanart>
         </assets>
         <platform>all</platform>
         <license>GPL-2.0-only</license>
