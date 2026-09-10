@@ -1531,7 +1531,7 @@ v1.0.0  (2024-07-13)
 	</extension>
 </addon>
 
-<addon id="plugin.video.titansmarttvplus" name="[COLOR orange]TiTan[/COLOR] Smart TV Plus" version="1.6.3" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
+<addon id="plugin.video.titansmarttvplus" name="[COLOR orange]TiTan[/COLOR] Smart TV Plus" version="1.6.4" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
     <requires>
         <import addon="xbmc.python" version="3.0.0"/>
         <import addon="script.module.requests" version="2.25.1"/>
@@ -1548,7 +1548,6 @@ v1.0.0  (2024-07-13)
         <summary lang="de_DE">Deutsches Live TV und VoD aus mehreren kostenlosen Streaming-Quellen</summary>
         <description lang="de_DE">TiTan Smart TV Plus bündelt Plex Live TV und VoD, Pluto.tv Live TV und VoD, Samsung TV Plus, Rakuten TV Live und VoD sowie freie M3U-TV-Quellen für Deutschland. Plex-Integration: TiTanX Lab Team. Credits: Samsung TV Plus - SlyGuy; RakutenTV German - realvito; Pluto.tv - Team Kodi, flubshi. Das Addon hostet keine Streams. Inhalte, Verfügbarkeit und Marken liegen bei den jeweiligen Anbietern.</description>
         <disclaimer lang="de_DE">Dieses Addon hostet keine Streams. Inhalte und Streams werden von den jeweiligen Anbietern bereitgestellt. TiTanX Lab Team steht in keiner offiziellen Verbindung zu Plex, Pluto.tv, Samsung TV Plus oder Rakuten TV.</disclaimer>
-        <news lang="de_DE">v1.6.3: Einheitliche VoD-Download-Bibliothek für Rakuten, Pluto und Plex; Serien-/Staffelstruktur, Metadaten, lokale Wiedergabe und Löschfunktionen bereinigt.</news>
 
         <platform>all</platform>
         <license>GPL-2.0-only</license>
