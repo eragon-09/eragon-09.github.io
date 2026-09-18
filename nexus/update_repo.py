@@ -26,6 +26,7 @@ class Generator:
         self._generate_addons_file()
         self._generate_md5_file()
         self._generate_zip_sha256_files()
+        self._generate_root_zip_sha256_files()
         print("✔ Fertig: addons.xml, addons.xml.md5 und ZIP-SHA256-Dateien wurden aktualisiert.")
 
     @staticmethod
@@ -192,6 +193,37 @@ class Generator:
         except Exception as exc:
             print(f"❌ Fehler beim Speichern von {filename}: {exc}")
             raise
+
+
+    def _generate_root_zip_sha256_files(self):
+        """Create SHA-256 sidecars for ZIP files directly in the current repo folder.
+
+        This covers manual/root ZIP copies such as repository.eragon-2.6.zip.
+        Existing sidecars are overwritten so they always match the ZIP.
+        """
+        print("Generating SHA-256 files for root ZIP copies...")
+        generated = 0
+
+        for filename in sorted(os.listdir(self._path)):
+            zip_path = os.path.join(self._path, filename)
+
+            if not os.path.isfile(zip_path) or not filename.lower().endswith(".zip"):
+                continue
+
+            sha256 = hashlib.sha256()
+            with open(zip_path, "rb") as zip_file:
+                for chunk in iter(lambda: zip_file.read(1024 * 1024), b""):
+                    sha256.update(chunk)
+
+            sha_path = zip_path + ".sha256"
+            with open(sha_path, "w", encoding="ascii", newline="") as sha_file:
+                sha_file.write(sha256.hexdigest())
+
+            print(f"  SHA-256: {os.path.basename(sha_path)}")
+            generated += 1
+
+        if generated == 0:
+            print("  No root ZIP copies found.")
 
 
 if __name__ == "__main__":
