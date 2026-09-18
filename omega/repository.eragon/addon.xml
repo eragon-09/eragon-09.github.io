@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<?xml version='1.0' encoding='UTF-8'?>
 <addon id="repository.eragon" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]" version="2.6" provider-name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR]">
   <requires>
-    <import addon="xbmc.addon" version="12.0.0"/>  
+    <import addon="xbmc.addon" version="12.0.0" />  
   </requires>
   <extension point="xbmc.addon.repository" name="[COLORred]E[COLORblue]ra[COLORyellow]gon[/COLOR] [COLORcyan]Repository[/COLOR]">
     <dir>
@@ -20,7 +20,7 @@
       <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml</info>
       <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml.md5</checksum>
       <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega</datadir>
-      <hashes>false</hashes>
+      <hashes>sha256</hashes>
   </dir>
   <dir minversion="19.9.9">
       <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/nexus/addons.xml</info>

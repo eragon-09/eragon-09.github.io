@@ -1733,7 +1733,7 @@ v1.0.0  (2024-07-13)
         <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml</info>
         <checksum>https://raw.github.com/eragon-09/eragon-09.github.io/master/omega/addons.xml.md5</checksum>
         <datadir zip="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/omega</datadir>
-        <hashes>false</hashes>
+        <hashes>sha256</hashes>
       </dir>
       <dir minversion="19.9.9">
         <info compressed="true">https://raw.github.com/eragon-09/eragon-09.github.io/master/nexus/addons.xml</info>
