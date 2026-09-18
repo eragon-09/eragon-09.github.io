@@ -25,7 +25,8 @@ class Generator:
     def __init__(self):
         self._generate_addons_file()
         self._generate_md5_file()
-        print("✔ Fertig: addons.xml und addons.xml.md5 wurden aktualisiert.")
+        self._generate_zip_sha256_files()
+        print("✔ Fertig: addons.xml, addons.xml.md5 und ZIP-SHA256-Dateien wurden aktualisiert.")
 
     @staticmethod
     def _indent(elem, level=0):
@@ -138,6 +139,50 @@ class Generator:
             self._save_file(digest.encode("ascii"), ADDONS_MD5_FILE)
         except Exception as exc:
             print(f"❌ Fehler beim Erstellen von addons.xml.md5: {exc}")
+
+    def _generate_zip_sha256_files(self):
+        """Erzeugt/aktualisiert <addon-id>-<version>.zip.sha256 für jede aktuelle Add-on-ZIP."""
+        created = 0
+        missing = 0
+
+        for folder_name in sorted(os.listdir(DIR_PATH), key=str.lower):
+            addon_path = os.path.join(DIR_PATH, folder_name)
+            if not os.path.isdir(addon_path) or folder_name.endswith((".svn", ".git")):
+                continue
+
+            addon_xml_path = os.path.join(addon_path, "addon.xml")
+            if not os.path.isfile(addon_xml_path):
+                continue
+
+            try:
+                root = ET.parse(addon_xml_path).getroot()
+                addon_id = root.get("id")
+                version = root.get("version")
+                if root.tag != "addon" or not addon_id or not version:
+                    raise ValueError("addon.xml enthält keine gültige id/version")
+
+                zip_name = f"{addon_id}-{version}.zip"
+                zip_path = os.path.join(addon_path, zip_name)
+                sha256_path = zip_path + ".sha256"
+
+                if not os.path.isfile(zip_path):
+                    print(f"⚠ SHA-256 übersprungen, ZIP fehlt: {zip_path}")
+                    missing += 1
+                    continue
+
+                digest = hashlib.sha256()
+                with open(zip_path, "rb") as f:
+                    for chunk in iter(lambda: f.read(1024 * 1024), b""):
+                        digest.update(chunk)
+
+                self._save_file(digest.hexdigest().encode("ascii"), sha256_path)
+                print(f"✔ SHA-256: {folder_name}/{zip_name}.sha256")
+                created += 1
+
+            except Exception as exc:
+                print(f"⚠ SHA-256-Fehler bei {addon_path}: {exc}")
+
+        print(f"✔ {created} SHA-256-Dateien erstellt/aktualisiert, {missing} ZIP(s) fehlten.")
 
     @staticmethod
     def _save_file(data, filename):
