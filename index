@@ -1,8 +1,26 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ERAGON Repository 2.6</title>
+</head>
 <body>
-<h1>Hello World</h1>
-<p>I'm hosted with GitHub Pages.</p>
+  <h1>ERAGON REPOSITORY</h1>
+  <h2>Current Version: 2.6</h2>
+  <p>Instructions for adding this repo:</p>
+  <ul>
+    <li>Go to Kodi file manager.</li>
+    <li>Click on "Add Source".</li>
+    <li>The address for the source is <code>https://eragon-09.github.io/</code> (name it "ERAGON Repo").</li>
+    <li>Go to "Addons".</li>
+    <li>Select "Install from zip file", choose "ERAGON Repo", and install
+      <a href="repository.eragon-2.6.zip">repository.eragon-2.6.zip</a>.
+    </li>
+    <li>Go back to Addons and select "Install from repository".</li>
+    <li>Select the "Eragon Repository".</li>
+  </ul>
+  <p><strong>Now the rest is your choice!</strong></p>
+  <h2>Enjoy!</h2>
 </body>
 </html>
-
