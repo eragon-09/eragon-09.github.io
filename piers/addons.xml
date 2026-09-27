@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="inputstream.adaptive" version="22.3.21" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="22.3.22" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
       <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
@@ -11,7 +11,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_android="libinputstream.adaptive.so" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+android-aarch64/inputstream.adaptive-22.3.21.zip</path>
+      <path>inputstream.adaptive+android-aarch64/inputstream.adaptive-22.3.22.zip</path>
       <platform>android-aarch64</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -67,7 +67,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端。支持 MPEG-DASH、HLS 和 Microsoft Smooth Streaming 等常见流协议。[CR][CR]该插件还支持 Google Widevine、Microsoft PlayReady 等 DRM 保护流。[CR][CR]如需文档，请访问：https://github.com/xbmc/inputstream.adaptive</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="22.3.21" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="22.3.22" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
       <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
@@ -78,7 +78,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_android="libinputstream.adaptive.so" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+android-armv7/inputstream.adaptive-22.3.21.zip</path>
+      <path>inputstream.adaptive+android-armv7/inputstream.adaptive-22.3.22.zip</path>
       <platform>android-armv7</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -134,7 +134,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端。支持 MPEG-DASH、HLS 和 Microsoft Smooth Streaming 等常见流协议。[CR][CR]该插件还支持 Google Widevine、Microsoft PlayReady 等 DRM 保护流。[CR][CR]如需文档，请访问：https://github.com/xbmc/inputstream.adaptive</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="22.3.21" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="22.3.22" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
       <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
@@ -145,7 +145,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_windows="inputstream.adaptive.dll" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+windows-i686/inputstream.adaptive-22.3.21.zip</path>
+      <path>inputstream.adaptive+windows-i686/inputstream.adaptive-22.3.22.zip</path>
       <platform>windows-i686</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -201,7 +201,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端。支持 MPEG-DASH、HLS 和 Microsoft Smooth Streaming 等常见流协议。[CR][CR]该插件还支持 Google Widevine、Microsoft PlayReady 等 DRM 保护流。[CR][CR]如需文档，请访问：https://github.com/xbmc/inputstream.adaptive</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="22.3.21" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="22.3.22" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.3" version="2.0.3" />
       <import addon="kodi.binary.global.gui" minversion="5.15.0" version="5.15.1" />
@@ -212,7 +212,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm|drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|server_certificate|common_headers|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|config|manifest_config" library_windows="inputstream.adaptive.dll" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+windows-x86_64/inputstream.adaptive-22.3.21.zip</path>
+      <path>inputstream.adaptive+windows-x86_64/inputstream.adaptive-22.3.22.zip</path>
       <platform>windows-x86_64</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
