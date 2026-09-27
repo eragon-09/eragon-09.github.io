@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <addons>
-  <addon id="inputstream.adaptive" version="21.5.24" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="21.5.25" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
       <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -12,7 +12,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|manifest_type|server_certificate|manifest_update_parameter|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|internal_cookies|config|manifest_config" library_android="libinputstream.adaptive.so" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.24.zip</path>
+      <path>inputstream.adaptive+android-aarch64/inputstream.adaptive-21.5.25.zip</path>
       <platform>android-aarch64</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -64,7 +64,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="21.5.24" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="21.5.25" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
       <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -76,7 +76,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|manifest_type|server_certificate|manifest_update_parameter|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|internal_cookies|config|manifest_config" library_android="libinputstream.adaptive.so" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.24.zip</path>
+      <path>inputstream.adaptive+android-armv7/inputstream.adaptive-21.5.25.zip</path>
       <platform>android-armv7</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -128,7 +128,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="21.5.24" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="21.5.25" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
       <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -140,7 +140,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|manifest_type|server_certificate|manifest_update_parameter|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|internal_cookies|config|manifest_config" library_windows="inputstream.adaptive.dll" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.24.zip</path>
+      <path>inputstream.adaptive+windows-i686/inputstream.adaptive-21.5.25.zip</path>
       <platform>windows-i686</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
@@ -192,7 +192,7 @@
       <description lang="zh_CN">用于自适应流的 InputStream 客户端</description>
     </extension>
   </addon>
-  <addon id="inputstream.adaptive" version="21.5.24" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
+  <addon id="inputstream.adaptive" version="21.5.25" name="InputStream Adaptive" provider-name="peak3d, Team Kodi">
     <requires>
       <import addon="kodi.binary.global.main" minversion="2.0.0" version="2.0.2" />
       <import addon="kodi.binary.global.general" minversion="1.0.4" version="1.0.5" />
@@ -204,7 +204,7 @@
     </requires>
     <extension point="kodi.inputstream" name="adaptive" extension="" tags="true" listitemprops="drm_legacy|license_type|license_key|license_url|license_url_append|license_data|license_flags|manifest_type|server_certificate|manifest_update_parameter|manifest_upd_params|manifest_params|manifest_headers|stream_params|stream_headers|original_audio_language|play_timeshift_buffer|pre_init_data|stream_selection_type|chooser_bandwidth_max|chooser_resolution_max|chooser_resolution_secure_max|live_delay|internal_cookies|config|manifest_config" library_windows="inputstream.adaptive.dll" />
     <extension point="xbmc.addon.metadata">
-      <path>inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.24.zip</path>
+      <path>inputstream.adaptive+windows-x86_64/inputstream.adaptive-21.5.25.zip</path>
       <platform>windows-x86_64</platform>
       <license>GPL-2.0-or-later</license>
       <source>https://github.com/xbmc/inputstream.adaptive</source>
