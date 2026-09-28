@@ -2430,7 +2430,7 @@ Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tabl
       </assets>
     </extension>
   </addon>
-  <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.208" provider-name="gujal">
+  <addon id="script.module.resolveurl" name="ResolveURL" version="5.1.210" provider-name="gujal">
     <requires>
       <import addon="script.module.six" />
       <import addon="script.module.kodi-six" />
