@@ -583,8 +583,9 @@
       <description lang="zh_CN">实时消息协议（RTMP）是 Adobe Inc. 开发的一种专有网络协议，用于通过互联网将音频、视频和其他数据从媒体服务器传输到 flash 播放器。[CR][CR]此插件实现对 Kodi 和已安装插件的 RTMP 流支持。</description>
     </extension>
   </addon>
-  <addon id="plugin.audio.mp3streams" name="[COLOR antiquewhite]MP3 Streams[/COLOR]" version="1.8.1" provider-name="[COLOR blue]Bugatsinho | TBFAM[/COLOR]">
+  <addon id="plugin.audio.mp3streams" name="[COLOR antiquewhite]MP3 Streams[/COLOR]" version="1.8.2" provider-name="[COLOR blue]Bugatsinho | TBFAM[/COLOR]">
     <requires>
+      <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.future" />
       <import addon="script.module.mutagen" />
       <import addon="script.module.requests" />
