@@ -1110,7 +1110,7 @@ KUDOS:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.themoviedb.helper" version="6.18.3" name="TMDb Helper" provider-name="jurialmunkey">
+  <addon id="plugin.video.themoviedb.helper" version="6.19.2" name="TMDb Helper" provider-name="jurialmunkey">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.9.1" />
@@ -2169,7 +2169,7 @@ Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tabl
         https://t.me/acestream_spanish</forum>
     </extension>
   </addon>
-  <addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.0.8">
+  <addon id="script.module.infotagger" name="InfoTagger" provider-name="jurialmunkey" version="0.1.0">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
     </requires>
