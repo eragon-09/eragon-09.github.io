@@ -1425,7 +1425,7 @@ v1.0.0  (2024-07-13)
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.xship" version="2026.04.11" name="[B]xShip Mod[/B]" provider-name="Michaz, Mod By Eragon">
+  <addon id="plugin.video.xship" version="2026.11.04" name="[B]xShip Mod[/B]" provider-name="Michaz, Mod By Eragon">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
@@ -1453,7 +1453,7 @@ v1.0.0  (2024-07-13)
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.xstream" name="xStream Mod" version="2026.04.11" provider-name="xStream-Team Mod Eragon">
+  <addon id="plugin.video.xstream" name="xStream Mod" version="2026.11.04" provider-name="xStream-Team Mod Eragon">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="script.module.requests" />
