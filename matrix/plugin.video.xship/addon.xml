@@ -1,4 +1,4 @@
-<addon id="plugin.video.xship" version="2026.01.11" name="[B]xShip Mod[/B]" provider-name="Michaz, Mod By Eragon">
+<addon id="plugin.video.xship" version="2026.04.11" name="[B]xShip Mod[/B]" provider-name="Michaz, Mod By Eragon">
 <requires>
 <import addon="xbmc.python" version="3.0.0"/>
 <import addon="script.module.requests"/>
