@@ -1958,7 +1958,7 @@ Basierend auf EZ Maintenance+ von aenema und peno. Die Funktion „Truncate Tabl
       </assets>
     </extension>
   </addon>
-  <addon id="script.context.tmdb.multitrailer" name="TMDb Helper – MultiTrailer Kontextmenü" version="1.0.1" provider-name="eragon | IT('s) Possible">
+  <addon id="script.context.tmdb.multitrailer" name="TMDb Helper – MultiTrailer Kontextmenü" version="1.0.2" provider-name="eragon | IT('s) Possible">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
       <import addon="plugin.video.multitrailer" version="2026.10.31" />
