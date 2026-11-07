@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addon id="script.context.tmdb.multitrailer" name="TMDb Helper – MultiTrailer Kontextmenü" version="1.0.1" provider-name="eragon | IT('s) Possible">
+<addon id="script.context.tmdb.multitrailer" name="TMDb Helper – MultiTrailer Kontextmenü" version="1.0.2" provider-name="eragon | IT('s) Possible">
  <requires><import addon="xbmc.python" version="3.0.0" /><import addon="plugin.video.multitrailer" version="2026.10.31" /></requires>
  <extension point="xbmc.python.script" library="patch_manager.py" /><extension point="xbmc.service" library="service.py" start="startup" />
  <extension point="xbmc.addon.metadata"><summary lang="de_DE">Trailer im TMDb Helper an erster Stelle ergänzen</summary><description lang="de_DE">Beim Kodi-Start automatisch und über Ausführen manuell wird „Trailer ansehen“ an erster Stelle des TMDb-Helper-Kontextmenüs eingefügt. Kein zusätzlicher Kodi-Kontextmenüeintrag.</description><platform>all</platform><license>MIT</license><assets><icon>icon.png</icon><fanart>fanart.jpg</fanart></assets></extension>
