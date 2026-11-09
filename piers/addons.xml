@@ -1045,27 +1045,6 @@ KUDOS:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.program.iptv.merge" name="IPTV Merge" provider-name="SlyGuy" version="0.30.19">
-    <requires>
-      <import addon="script.module.slyguy" version="0.86.79" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>executable</provides>
-    </extension>
-    <extension point="xbmc.service" library="service.py" start="login" />
-    <extension point="xbmc.addon.metadata">
-      <description lang="en">Easily merge multiple IPTV playlists &amp; EPGs from remote, local or supported add-on sources.</description>
-      <reuselanguageinvoker>true</reuselanguageinvoker>
-      <license />
-      <language />
-      <website />
-      <news>Fix property user-agent and referer headers not being applied correctly</news>
-      <assets>
-        <icon>icon.png</icon>
-        <fanart>fanart.jpg</fanart>
-      </assets>
-    </extension>
-  </addon>
   <addon id="plugin.video.f4mTester" version="4.1.3" name="f4mTester" provider-name="Equipe Oneplay e Tiago ">
     <requires>
       <import addon="xbmc.python" version="3.0.0" />
@@ -1132,26 +1111,6 @@ KUDOS:
       <assets>
         <icon>resources/media/icon.png</icon>
         <fanart>resources/media/fanart.jpg</fanart>
-      </assets>
-    </extension>
-  </addon>
-  <addon id="plugin.video.gezkino" name="[COLOR ff007fff][[/COLOR][COLOR ff3266ff]G[/COLOR][COLOR ff664cff]E[/COLOR][COLOR ff9933ff]Z[/COLOR][COLOR ffcc19ff]][/COLOR][COLOR ffff00ff] [/COLOR][COLOR ffdf00ff]K[/COLOR][COLOR ffbf00ff]i[/COLOR][COLOR ff9f00ff]N[/COLOR][COLOR ff7f00ff]O[/COLOR]" version="2026.07.05" provider-name="zusatzmetall, Kato14, mr-evil1, Kangool">
-    <requires>
-      <import addon="xbmc.python" version="3.0.0" />
-      <import addon="script.module.requests" />
-    </requires>
-    <extension point="xbmc.python.pluginsource" library="default.py">
-      <provides>video</provides>
-    </extension>
-    <extension point="xbmc.addon.metadata">
-      <summary lang="de">Filtert Spielfilme aus den öffentlich-rechtlichen Mediatheken (Mediathekview)</summary>
-      <description lang="de">Entdecke eine kuratierte Auswahl an Spielfilmen, sortiert nach Genres, Jahren oder Bewertungen und bietet eine übersichtliche, benutzerfreundliche Oberfläche für dein Media Center.</description>
-      <platform>all</platform>
-      <assets>
-        <icon>media/icon.png</icon>
-        <fanart>media/fanart.png</fanart>
-        <banner>media/fanart.png</banner>
-        <screenshot>media/fanart.png</screenshot>
       </assets>
     </extension>
   </addon>
