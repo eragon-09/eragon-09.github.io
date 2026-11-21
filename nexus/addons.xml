@@ -1241,7 +1241,7 @@ Major Update:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.10" provider-name="Vavoo TV Plus">
+  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.11" provider-name="Vavoo TV Plus">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.27.1" />
