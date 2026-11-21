@@ -1094,7 +1094,7 @@ KUDOS:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.flimmerboxyt" name="FlimmerBoxYT" version="1.6.4" provider-name="TiTanX Lab">
+  <addon id="plugin.video.flimmerboxyt" name="FlimmerBoxYT" version="1.6.4" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.31.0" />
@@ -1305,7 +1305,7 @@ Major Update:
          </news>
     </extension>
   </addon>
-  <addon id="plugin.video.titanmacvodedition" name="[COLOR orangered]Titan [COLOR lime]Portal MAC VOD Edition[/COLOR]" version="1.2.5" provider-name="[COLOR red]Ti[/COLOR][COLOR darkgrey]Tan[/COLOR]">
+  <addon id="plugin.video.titanmacvodedition" name="[COLOR orangered]Titan [COLOR lime]Portal MAC VOD Edition[/COLOR]" version="2.5.1" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.27.1" />
@@ -1333,33 +1333,16 @@ Major Update:
         <screenshot>resources/media/screenshot_3.png</screenshot>
         <screenshot>resources/media/screenshot_4.png</screenshot>
       </assets>
-      <news>
-
-v1.2.0  (2026-04-07)
-- Feature: Zapping-Playlist (Next/Prev zwischen Sendern)
-- Feature: EPG-Plot mit JETZT / noch X min / Sendungstitel / Beschreibung / DANACH
-- Feature: Zapping-Label mit Zeitbereich und Restzeit in Gold
-- Feature: Externe XMLTV-EPG-Quelle (URL oder lokale Datei)
-- Feature: EPG-Quelle wählbar: Portal / Extern (XMLTV) / Beides (Merge)
-- Fix: setContent=files verhindert auto-skip in Kanalliste
-- Fix: Playlist-Fenster schließt automatisch beim Senderwechsel (onAVChange)
-- Fix: epg_id korrekt in Channel-Payload gesetzt
-
-v1.1.0  (2026-04-04)
-- Hauptmenü überarbeitet
-- Server wählen, MAC wählen und Cache löschen ergänzt
-- PVR-Listen-Funktion integriert
-- Manuelle Portal-URL in den Einstellungen aktiviert
-- Menü-Icons erweitert
-- Favoriten-Icon ergänzt
-- EPG-Handling verbessert
-
-v1.0.0  (2024-07-13)
-- Basisversion mit Live-TV, VoD und Serien
-- Portal-/MAC-basierte Nutzung für Stalker-kompatible Dienste
-- Favoriten für TV, VoD und Serien
-- UpNext-Unterstützung
-		</news>
+      <news>Version 2.5.1
+- TV-Suche vereinfacht: direkte Suche ohne Suchverlauf
+- Suchtreffer nach enthaltenem Sendernamen, auch mit Portal-Praefixen
+- Suchbereiche: Alle Sender, Meine Laender und Erotik / Adult
+- Verbesserte Zurueck-Navigation und editierbarer Suchbegriff
+- Favoriten-Synchronisierung mit strenger Sendererkennung
+- Nicht verfuegbare Sender werden gekennzeichnet
+- Portal- und MAC-spezifische Senderzuordnungen
+- Manuelle Senderzuordnung ueber die Sendersuche
+- Einheitliches Fanart in Hauptmenue und Untermenues</news>
     </extension>
   </addon>
   <addon id="plugin.video.titansmarttvplus" name="[COLOR orange]TiTan[/COLOR] Smart TV Plus" version="1.6.4" provider-name="[COLOR silver]TiTan[/COLOR][COLOR lime]X[/COLOR] [COLOR dimgray]Lab[/COLOR] Team">
