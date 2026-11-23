@@ -1327,7 +1327,7 @@ Major Update:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.11" provider-name="Vavoo TV Plus">
+  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.12" provider-name="Vavoo TV Plus">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.27.1" />
@@ -1342,7 +1342,7 @@ Major Update:
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="de_DE">Vavoo TV Plus 2.0.10 Kodi 21/22</summary>
+      <summary lang="de_DE">Vavoo TV Plus 2.0.12 Kodi 21/22</summary>
       <description lang="de_DE">IPTV-Addon mit modularer Favoritenverwaltung, automatischer Synchronisation, Reparaturfunktionen, EPG-Unterstützung sowie Sicherung und M3U-Import/-Export.</description>
       <platform>all</platform>
       <assets>
