@@ -1327,23 +1327,24 @@ Major Update:
       </assets>
     </extension>
   </addon>
-  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.11" provider-name="Vavoo TV Plus">
+  <addon id="plugin.video.vavoo.tv.plus" name="Vavoo TV Plus" version="2.0.13" provider-name="Vavoo TV Plus">
     <requires>
       <import addon="xbmc.python" version="3.0.1" />
       <import addon="script.module.requests" version="2.27.1" />
       <import addon="inputstream.ffmpegdirect" version="21.3.8" />
       <import addon="inputstream.adaptive" version="21.5.25" />
       <import addon="script.module.resolveurl" version="5.1.198" />
-      <import addon="script.module.kodi-six" version="0.1.3.1" />
-      <import addon="script.module.six" version="1.11.0" />
-      <import addon="script.module.pyqrcode" version="1.2.1+matrix.4" />
     </requires>
     <extension point="xbmc.python.pluginsource" library="addon.py">
       <provides>video</provides>
     </extension>
     <extension point="xbmc.addon.metadata">
-      <summary lang="de_DE">Vavoo TV Plus 2.0.10 Kodi 21/22</summary>
+      <summary lang="de_DE">Vavoo TV Plus 2.0.13 Kodi 21/22</summary>
       <description lang="de_DE">IPTV-Addon mit modularer Favoritenverwaltung, automatischer Synchronisation, Reparaturfunktionen, EPG-Unterstützung sowie Sicherung und M3U-Import/-Export.</description>
+      <news lang="de_DE">VAVOO TV Plus 2.0.13 – Neue EPG-Ansicht "Live-Guide":
+• Senderliste mit Live-TV-Vorschau: Beim Wechseln der Sender wechselt das Bild mit
+• Alle Funktionen der Senderliste (Gruppen, Kontextmenü, Farbtasten, Sendungsliste) bleiben erhalten
+• Auswahl unter Einstellungen → EPG → EPG-Ansicht</news>
       <platform>all</platform>
       <assets>
         <icon>resources/media/icon.png</icon>
